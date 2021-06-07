@@ -1,0 +1,7 @@
+2020-12-28 10:51:36 [@lab01]
+DATETIME fields must be converted to TIMESTAMP for timezones to work. Run bin/console glpi:migration:timestamps @ 2020-12-28 10:51:45 [@lab01]
+New rights has been added for cluster, you should review ACLs after update @ 2020-12-28 10:52:00 [@lab01]
+New rights has been added for externalevent, you should review ACLs after update @ 2020-12-28 10:52:03 [@lab01]
+Updating software tables. This may take several minutes. @ 2020-12-28 10:52:22 [@lab01]
+New rights has been added for dashboard, you should review ACLs after update @ 2020-12-28 10:52:56 [@lab01]
+New rights has been added for appliance, you should review ACLs after update @ 

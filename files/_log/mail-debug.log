@@ -1,0 +1,23 @@
+2021-05-18 09:39:30 [2@lab01]
+3 - Connection: opening to 192.168.99.2:25, timeout=300, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)2021-05-18 09:41:40 [2@lab01]
+3 - Connection failed. Error #2: stream_socket_client(): unable to connect to 192.168.99.2:25 (Connection timed out) [/var/www/html/glpi/vendor/phpmailer/phpmailer/src/SMTP.php line 344]2021-05-18 09:41:40 [2@lab01]
+1 - SMTP ERROR: Failed to connect to server: Connection timed out (110)2021-05-18 09:41:40 [2@lab01]
+3 - SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting2021-05-18 09:41:42 [2@lab01]
+3 - Connection: opening to 192.168.99.2:25, timeout=300, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)2021-05-18 09:43:53 [2@lab01]
+3 - Connection failed. Error #2: stream_socket_client(): unable to connect to 192.168.99.2:25 (Connection timed out) [/var/www/html/glpi/vendor/phpmailer/phpmailer/src/SMTP.php line 344]2021-05-18 09:43:53 [2@lab01]
+1 - SMTP ERROR: Failed to connect to server: Connection timed out (110)2021-05-18 09:43:53 [2@lab01]
+3 - SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
